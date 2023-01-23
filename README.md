@@ -2,13 +2,13 @@
 This repo contains a boilerplate Hardhat project able to deploy Smart Contracts into VeChain network.
 
 # How to
-1. Install project and dependencies
+## 1. Install project and dependencies
 ```bash
 npm install
 ```
 
 
-2. Compile your Smart Contracts
+## 2. Compile your Smart Contracts
 
 ```bash
 npx hardhat compile
@@ -17,7 +17,7 @@ npx hardhat compile
 If all goes ok you will have an **/artifacts** folder.
 
 
-3. Edit configuration for deploy
+## 3. Edit configuration for deploy
 
 Go to **./scripts/deployVeChain.ts** file and edit the following variables:
 
@@ -70,7 +70,7 @@ const CONTRACT_NAME = "Test"
 ```
 
 
-4. You are ready to deploy!
+## 4. You are ready to deploy!
 ```bash
 npx hardhat run ./scripts/deployVeChain.ts
 ```
